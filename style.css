@@ -1,0 +1,96 @@
+
+.body {
+height: 768px;
+width: 1024px;
+left: -8652px;
+top: 3370px;
+border-radius: 0px;
+background: #FFFFFF;
+}
+
+svg {
+position: absolute;
+height: 392px;
+width: 481px;
+left: 272px;
+top: 31px;
+background: #F7F5F9;
+border-radius: 12px;
+}
+
+.container {
+position: absolute;
+width: 481px;
+height: 392px;
+left: 272px;
+top: 31px;
+font-family: Roboto;
+
+filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+}
+
+.heading {
+position: absolute;
+width: 168px;
+height: 20px;
+left: 312px;
+top: 71px;
+font-size: 24px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #3B3D43;
+}
+
+.name {
+position: absolute;
+width: 401px;
+height: 48px;
+left: 312px;
+top: 116px;
+}
+
+.phone {
+position: absolute;
+width: 401px;
+height: 48px;
+left: 312px;
+top: 189px;
+}
+
+.email {
+position: absolute;
+width: 401px;
+height: 48px;
+left: 312px;
+top: 262px;
+}
+
+.button {
+position: absolute;
+width: 401px;
+height: 48px;
+left: 312px;
+top: 335px;
+font-size: 17px;
+line-height: 22px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+background: #6979F8;
+border: 1px solid #854FC8;
+box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+border-radius: 6px;
+}
+
+.name,
+.phone,
+.email {
+font-size: 15px;
+line-height: 20px;
+background: #FFFFFF;
+border: 1px solid #854FC8;
+filter:drop-shadow(0px 7px 64px rgba(0, 0, 0, 0.07));
+border-radius: 6px;
+}
+
