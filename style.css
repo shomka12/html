@@ -1,77 +1,58 @@
-
-.body {
-height: 768px;
-width: 1024px;
-left: -8652px;
-top: 3370px;
-border-radius: 0px;
-background: #FFFFFF;
-}
-
-svg {
-position: absolute;
-height: 392px;
-width: 481px;
-left: 272px;
-top: 31px;
-background: #F7F5F9;
-border-radius: 12px;
-}
-
 .container {
-position: absolute;
-width: 481px;
-height: 392px;
-left: 272px;
-top: 31px;
-font-family: Roboto;
-
+	height: 392px;
+	width: 481px;
+	background: #F7F5F9;
+	border-radius: 12px;
 filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+margin: 0 auto;
 }
+
 
 .heading {
-position: absolute;
-width: 168px;
-height: 20px;
-left: 312px;
-top: 71px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
 font-size: 24px;
 line-height: 20px;
-display: flex;
-align-items: center;
-color: #3B3D43;
+margin-left: 8.5%;
+padding-top: 40px;
+margin-bottom: 25px;
+
 }
 
-.name {
-position: absolute;
-width: 401px;
-height: 48px;
-left: 312px;
-top: 116px;
-}
-
-.phone {
-position: absolute;
-width: 401px;
-height: 48px;
-left: 312px;
-top: 189px;
-}
-
+.name,
+.phone,
 .email {
-position: absolute;
-width: 401px;
+font-size: 15px;
+line-height: 20px;
+background: #FFFFFF;
+border: none;
+filter:drop-shadow(0px 7px 64px rgba(0, 0, 0, 0.07));
+border-radius: 6px;
 height: 48px;
-left: 312px;
-top: 262px;
+width: 376px;
+margin-left: 40px;
+margin-bottom: 25px;
+padding-left: 25px;
+}
+
+.name::placeholder,
+.phone::placeholder,
+.email::placeholder {
+  color: #D0C9D6;
+}
+
+.name:hover,
+.phone:hover,
+.email:hover {
+border: 1px solid #854FC8;
+
 }
 
 .button {
-position: absolute;
+
 width: 401px;
 height: 48px;
-left: 312px;
-top: 335px;
 font-size: 17px;
 line-height: 22px;
 align-items: center;
@@ -81,16 +62,7 @@ background: #6979F8;
 border: 1px solid #854FC8;
 box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
 border-radius: 6px;
-}
+margin-left: 8.5%;
+margin-bottom: 25px;
 
-.name,
-.phone,
-.email {
-font-size: 15px;
-line-height: 20px;
-background: #FFFFFF;
-border: 1px solid #854FC8;
-filter:drop-shadow(0px 7px 64px rgba(0, 0, 0, 0.07));
-border-radius: 6px;
 }
-
